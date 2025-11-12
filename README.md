@@ -33,3 +33,15 @@ Proyek ini memiliki struktur standar Flutter dengan pemisahan logika dan UI:
 
 **🖥️ Screenshot Aplikasi**
 
+1.INPUT
+
+
+
+![Halaman Input BMR](https://raw.githubusercontent.com/mufaira/bmr_calculator/main/assets/screenshot_input.png)
+
+
+2.RESULT
+
+
+
+![Halaman Result BMR](https://raw.githubusercontent.com/mufaira/bmr_calculator/main/assets/screenshot_result.png)
