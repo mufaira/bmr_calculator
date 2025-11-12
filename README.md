@@ -1,16 +1,35 @@
-# bmr_calculator
+**BMR Calculator - Project Flutter**
 
-A new Flutter project.
+Project ini adalah aplikasi kalkulator Basal Metabolic Rate (BMR) yang dibangun menggunakan Flutter. Aplikasi ini membantu pengguna memperkirakan jumlah kalori minimum yang dibutuhkan tubuh mereka per hari saat istirahat total, berdasarkan Tinggi, Berat, Usia, dan Jenis Kelamin.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+**Fitur Utama**
 
-A few resources to get you started if this is your first Flutter project:
+Kalkulasi BMR (Mifflin-St Jeor): Menggunakan rumus modern dan akurat untuk mendapatkan BMR.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Kebutuhan Kalori Harian (TDEE): Menampilkan estimasi kalori harian berdasarkan 5 tingkat aktivitas fisik.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Antarmuka Pengguna (UI) Responsif: Dibuat dengan komponen kartu yang intuitif dan tema gelap.
+
+**Anggota Kelompok :**
+Muhammad Irfan Dwi Putra (K3523049)
+
+
+**🛠️ Struktur Proyek**
+
+Proyek ini memiliki struktur standar Flutter dengan pemisahan logika dan UI:
+
+1. lib/main.dart: Titik masuk aplikasi dan konfigurasi tema.
+
+2. lib/constants.dart: Konstanta warna, gaya teks, dan enum.
+
+3. lib/calculator.dart: Kelas utama yang menampung logika perhitungan BMR dan TDEE.
+
+4. lib/pages/input_page.dart: Halaman untuk memasukkan data (Jenis Kelamin, Tinggi, Berat, Usia).
+
+5. lib/pages/result_page.dart: Halaman untuk menampilkan hasil BMR dan Kebutuhan Kalori Harian.
+
+6. lib/components/: Berisi widget-widget kustom yang dapat digunakan kembali (Kartu, Tombol).
+
+**🖥️ Screenshot Aplikasi**
+
